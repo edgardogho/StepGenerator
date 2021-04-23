@@ -7,6 +7,6 @@ The normal run mode counts how many times the sensor was triggered.
 
 It uses a 16x2 LCD (i2c), a digital encoder with click, a pushbutton for manual control along with several switches to change modes.
 
-This sketch does not handle acceleration ramps for the stepper which might are required for more RPMs.
+This sketch does not handle acceleration ramps for the stepper which might be required for more RPMs.
 
 On a NEMA 34 8Nm 6A Bipolar Stepper motor, with 3200 microsteps, I was able to get 340 RPMs.
